@@ -4,7 +4,7 @@ import streamlit as st
 from openpyxl import load_workbook
 from datetime import datetime
 
-WORKSPACE = r"C:\Users\tiger\Desktop"
+WORKSPACE = os.path.dirname(os.path.abspath(__file__))
 WORKER_FILE = "Workers Detail.xlsx"
 DEFAULT_EXCEL = "Work Schedule 3-8.xlsx"
 
